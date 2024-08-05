@@ -1,4 +1,4 @@
-#推荐勇application.yml
+#推荐用application.yml
 spring:
   thymeleaf:
     prefix: classpath:/templates/
@@ -9,9 +9,9 @@ spring:
 
   application:
     name: 003springboot
-#logging:
-#  level:
-#    org.springframework.boot.autoconfigure: DEBUG
+logging:
+  level:
+    org.springframework.boot.autoconfigure: DEBUG
 myapp:
   #测试这个文件生效没 可在java内直接这样访问 @Value("${myapp.greeting}")
   greeting: Hello from application.yml!
